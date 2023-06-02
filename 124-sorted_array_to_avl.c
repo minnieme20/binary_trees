@@ -32,7 +32,7 @@ avl_t *aux_sort(avl_t *parent, int *array, int begin, int last)
 	binary_tree_t *aux;
 	int mid = 0;
 
-	if ( begin <= last)
+	if (begin <= last)
 	{
 		mid = (begin + last) / 2;
 		aux = binary_tree_node((binary_tree_t *)parent, array[mid]);
