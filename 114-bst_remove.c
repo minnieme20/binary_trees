@@ -1,4 +1,5 @@
-bst_remove_recursivebst_remove_recursive#include "binary_trees.h"
+#include "binary_trees.h"
+
 bst_t *inorder_successor(bst_t *root);
 bst_t *bst_delete(bst_t *root, bst_t *node);
 bst_t *bst_remove_recursive(bst_t *root, bst_t *node, int value);
